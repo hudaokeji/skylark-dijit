@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/it/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,0BACdC,WAAY","file":"../../../nls/it/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Caricamento in corso...\",\r\n\terrorState: \"Si è verificato un errore\"\r\n})\r\n);\r\n"]}

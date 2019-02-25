@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/es/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,cACdC,WAAY","file":"../../../nls/es/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Cargando...\",\r\n\terrorState: \"Lo siento, se ha producido un error\"\r\n})\r\n);\r\n"]}

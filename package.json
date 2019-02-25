@@ -1,0 +1,31 @@
+{
+  "name": "dijit",
+  "description": "A version of dijit.js framework that ported to running on skylarkjs.",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "framework",
+    "dijit"
+  ],
+  "homepage": "https://github.com/skylark-integration/dijit/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/dijit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/dijit/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master",
+    "dojo": "git+https://github.com/skylark-integration/dojo.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}

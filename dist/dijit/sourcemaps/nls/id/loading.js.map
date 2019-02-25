@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/id/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,eACdC,WAAY","file":"../../../nls/id/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Memuatkan...\",\r\n\terrorState: \"Maaf, terjadi kesalahan\"\r\n})\r\n);\r\n\r\n"]}

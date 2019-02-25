@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/zh/validate.js"],"names":["define","invalidMessage","missingMessage","rangeMessage"],"mappings":";;;;;;;AAAAA,QAECC,eAAgB,UAChBC,eAAgB,UAChBC,aAAc","file":"../../../../form/nls/zh/validate.js","sourcesContent":["define(\r\n({\r\n\tinvalidMessage: \"输入的值无效。\",\r\n\tmissingMessage: \"该值是必需的。\",\r\n\trangeMessage: \"此值超出范围。\"\r\n})\r\n);\r\n"]}

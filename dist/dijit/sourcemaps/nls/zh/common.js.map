@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/zh/common.js"],"names":["define","buttonOk","buttonCancel","buttonSave","itemClose"],"mappings":";;;;;;;AAAAA,QAECC,SAAU,KACVC,aAAc,KACdC,WAAY,KACZC,UAAW","file":"../../../nls/zh/common.js","sourcesContent":["define(\r\n({\r\n\tbuttonOk: \"确定\",\r\n\tbuttonCancel: \"取消\",\r\n\tbuttonSave: \"保存\",\r\n\titemClose: \"关闭\"\r\n})\r\n);\r\n"]}

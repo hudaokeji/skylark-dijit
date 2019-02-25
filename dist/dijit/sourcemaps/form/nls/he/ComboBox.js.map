@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/he/ComboBox.js"],"names":["define","previousMessage","nextMessage"],"mappings":";;;;;;;AAAAA,QAEEC,gBAAiB,oBACjBC,YAAa","file":"../../../../form/nls/he/ComboBox.js","sourcesContent":["define(\r\n({\r\n\t\tpreviousMessage: \"האפשרויות הקודמות\",\r\n\t\tnextMessage: \"אפשרויות נוספות\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/tr/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,gBACdC,WAAY","file":"../../../nls/tr/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Yükleniyor...\",\r\n\terrorState: \"Üzgünüz, bir hata oluştu\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/cs/common.js"],"names":["define","buttonOk","buttonCancel","buttonSave","itemClose"],"mappings":";;;;;;;AAAAA,QAECC,SAAU,KACVC,aAAc,SACdC,WAAY,SACZC,UAAW","file":"../../../nls/cs/common.js","sourcesContent":["define(\r\n({\r\n\tbuttonOk: \"OK\",\r\n\tbuttonCancel: \"Storno\",\r\n\tbuttonSave: \"Uložit\",\r\n\titemClose: \"Zavřít\"\r\n})\r\n);\r\n"]}

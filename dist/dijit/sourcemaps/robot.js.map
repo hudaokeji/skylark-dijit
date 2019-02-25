@@ -1,0 +1,1 @@
+{"version":3,"sources":["robot.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QACC,cACE","file":"../robot.js","sourcesContent":["define([\r\n\t\"dojo/robot\"\r\n], function(){\r\n\t// module:\r\n\t//\t\tdijit/robot\r\n\t// summary:\r\n\t//\t\tUsed to have code needed by robot test harness, but no longer\r\n});\r\n"]}

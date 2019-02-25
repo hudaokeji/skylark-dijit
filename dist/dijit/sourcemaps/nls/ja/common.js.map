@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/ja/common.js"],"names":["define","buttonOk","buttonCancel","buttonSave","itemClose"],"mappings":";;;;;;;AAAAA,QAECC,SAAU,KACVC,aAAc,QACdC,WAAY,KACZC,UAAW","file":"../../../nls/ja/common.js","sourcesContent":["define(\r\n({\r\n\tbuttonOk: \"OK\",\r\n\tbuttonCancel: \"キャンセル\",\r\n\tbuttonSave: \"保存\",\r\n\titemClose: \"閉じる\"\r\n})\r\n);\r\n"]}

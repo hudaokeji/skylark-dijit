@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/bg/ComboBox.js"],"names":["define","previousMessage","nextMessage"],"mappings":";;;;;;;AAAAA,QAECC,gBAAiB,kBACjBC,YAAa","file":"../../../../form/nls/bg/ComboBox.js","sourcesContent":["define(\r\n({\r\n\tpreviousMessage: \"Предишни избори\",\r\n\tnextMessage: \"Повече избори\"\r\n})\r\n);\r\n"]}

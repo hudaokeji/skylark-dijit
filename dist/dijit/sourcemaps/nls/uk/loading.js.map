@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/uk/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,kBACdC,WAAY","file":"../../../nls/uk/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Завантаження...\",\r\n\terrorState: \"Сталася помилка\"\r\n})\r\n);\r\n"]}

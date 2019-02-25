@@ -1,0 +1,1 @@
+{"version":3,"sources":["_base/typematic.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ,gBAAiB","file":"../../_base/typematic.js","sourcesContent":["define([\"../typematic\"], function(){\r\n\r\n\t/*=====\r\n\treturn {\r\n\t\t// summary:\r\n\t\t//\t\tDeprecated, for back-compat, just loads top level module\r\n\t};\r\n\t=====*/\r\n\r\n});\r\n"]}

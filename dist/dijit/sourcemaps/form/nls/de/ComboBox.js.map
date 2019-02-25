@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/de/ComboBox.js"],"names":["define","previousMessage","nextMessage"],"mappings":";;;;;;;AAAAA,QAEEC,gBAAiB,oBACjBC,YAAa","file":"../../../../form/nls/de/ComboBox.js","sourcesContent":["define(\r\n({\r\n\t\tpreviousMessage: \"Vorherige Auswahl\",\r\n\t\tnextMessage: \"Weitere Auswahlmöglichkeiten\"\r\n})\r\n);\r\n"]}

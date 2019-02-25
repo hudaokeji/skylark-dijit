@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/id/common.js"],"names":["define","buttonOk","buttonCancel","buttonSave","itemClose"],"mappings":";;;;;;;AAAAA,QAECC,SAAU,KACVC,aAAc,QACdC,WAAY,SACZC,UAAW","file":"../../../nls/id/common.js","sourcesContent":["define(\r\n({\r\n\tbuttonOk: \"OK\",\r\n\tbuttonCancel: \"Batal\",\r\n\tbuttonSave: \"Simpan\",\r\n\titemClose: \"Tutup\"\r\n})\r\n);\r\n\r\n"]}

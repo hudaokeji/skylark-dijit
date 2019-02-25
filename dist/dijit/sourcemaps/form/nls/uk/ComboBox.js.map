@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/uk/ComboBox.js"],"names":["define","previousMessage","nextMessage"],"mappings":";;;;;;;AAAAA,QAECC,gBAAiB,qBACjBC,YAAa","file":"../../../../form/nls/uk/ComboBox.js","sourcesContent":["define(\r\n({\r\n\tpreviousMessage: \"Попередні варіанти\",\r\n\tnextMessage: \"Додаткові варіанти\"\r\n})\r\n);\r\n"]}

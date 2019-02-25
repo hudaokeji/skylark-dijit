@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/he/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,YACdC,WAAY","file":"../../../nls/he/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"טעינה...‏\",\r\n\terrorState: \"אירעה שגיאה\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/sl/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,gBACdC,WAAY","file":"../../../nls/sl/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Nalaganje ...\",\r\n\terrorState: \"Oprostite, prišlo je do napake.\"\r\n})\r\n);\r\n"]}

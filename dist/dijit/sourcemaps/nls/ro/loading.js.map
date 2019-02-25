@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/ro/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,eACdC,WAAY","file":"../../../nls/ro/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Încărcare...\",\r\n\terrorState: \"Ne pare rău, a apărut o eroare \"\r\n})\r\n);\r\n"]}

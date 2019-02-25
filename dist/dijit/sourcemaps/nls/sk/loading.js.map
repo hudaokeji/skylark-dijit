@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/sk/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,gBACdC,WAAY","file":"../../../nls/sk/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"Zavádza sa...\",\r\n\terrorState: \"Ľutujeme, ale vyskytla sa chyba\"\r\n})\r\n);\r\n"]}

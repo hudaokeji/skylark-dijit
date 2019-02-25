@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/zh-tw/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,SACdC,WAAY","file":"../../../nls/zh-tw/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"載入中...\",\r\n\terrorState: \"抱歉，發生錯誤\"\r\n})\r\n);\r\n"]}

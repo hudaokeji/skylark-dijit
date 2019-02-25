@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/fi/ComboBox.js"],"names":["define","previousMessage","nextMessage"],"mappings":";;;;;;;AAAAA,QAEEC,gBAAiB,qBACjBC,YAAa","file":"../../../../form/nls/fi/ComboBox.js","sourcesContent":["define(\r\n({\r\n\t\tpreviousMessage: \"Edelliset valinnat\",\r\n\t\tnextMessage: \"Lisää valintoja\"\r\n})\r\n);\r\n"]}

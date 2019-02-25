@@ -1,0 +1,1 @@
+{"version":3,"sources":["nls/th/loading.js"],"names":["define","loadingState","errorState"],"mappings":";;;;;;;AAAAA,QAECC,aAAc,eACdC,WAAY","file":"../../../nls/th/loading.js","sourcesContent":["define(\r\n({\r\n\tloadingState: \"กำลังโหลด...\",\r\n\terrorState: \"ขออภัย เกิดข้อผิดพลาด\"\r\n})\r\n);\r\n"]}
