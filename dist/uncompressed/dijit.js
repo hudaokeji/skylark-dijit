@@ -86,6 +86,23 @@
 
 })(function(define,require) {
 
+define('dijit/_dijit',[
+	"dojo/_base/kernel"
+], function(dojo){
+	// module:
+	//		dijit/main
+
+/*=====
+return {
+	// summary:
+	//		The dijit package main module.
+	//		Deprecated.   Users should access individual modules (ex: dijit/registry) directly.
+};
+=====*/
+
+	return dojo.dijit;
+});
+
 define('dijit/a11y',[
 	"dojo/_base/array", // array.forEach array.map
 	"dojo/dom",			// dom.byId
@@ -93,7 +110,7 @@ define('dijit/a11y',[
 	"dojo/dom-style", // domStyle.style
 	"dojo/_base/lang", // lang.mixin()
 	"dojo/sniff", // has("ie") has("extend-dojo")
-	"./main"	// for exporting methods to dijit namespace
+	"./_dijit"	// for exporting methods to dijit namespace
 ], function(array, dom, domAttr, domStyle, lang, has, dijit){
 
 	// module:
@@ -281,7 +298,7 @@ define('dijit/a11y',[
 define('dijit/registry',[
 	"dojo/_base/array", // array.forEach array.map
 	"dojo/_base/window", // win.body
-	"./main"	// dijit._scopeName
+	"./_dijit"	// dijit._scopeName
 ], function(array, win, dijit){
 
 	// module:
@@ -703,7 +720,7 @@ define('dijit/focus',[
 	"dojo/window", // winUtils.get
 	"./a11y",	// a11y.isTabNavigable
 	"./registry",	// registry.byId
-	"./main"		// to set dijit.focus
+	"./_dijit"		// to set dijit.focus
 ], function(aspect, declare, dom, domAttr, domClass, domConstruct, Evented, lang, on, domReady, has, Stateful, win, winUtils,
 			a11y, registry, dijit){
 
@@ -1592,7 +1609,7 @@ define('dijit/_base/focus',[
 	"dojo/_base/window", // win.doc win.doc.selection win.global win.global.getSelection win.withGlobal
 	"../focus",
 	"../selection",
-	"../main"	// for exporting symbols to dijit
+	"../_dijit"	// for exporting symbols to dijit
 ], function(array, dom, lang, topic, win, focus, selection, dijit){
 
 	// module:
@@ -1797,7 +1814,7 @@ define('dijit/_base/manager',[
 	"dojo/_base/config", // defaultDuration
 	"dojo/_base/lang",
 	"../registry",
-	"../main"	// for setting exports to dijit namespace
+	"../_dijit"	// for setting exports to dijit namespace
 ], function(array, config, lang, registry, dijit){
 
 	// module:
@@ -1923,7 +1940,7 @@ define('dijit/place',[
 	"dojo/_base/kernel", // kernel.deprecated
 	"dojo/_base/window", // win.body
 	"./Viewport", // getEffectiveBox
-	"./main"	// dijit (defining dijit.place to match API doc)
+	"./_dijit"	// dijit (defining dijit.place to match API doc)
 ], function(array, domGeometry, domStyle, kernel, win, Viewport, dijit){
 
 	// module:
@@ -2329,7 +2346,7 @@ define('dijit/_base/place',[
 	"dojo/_base/lang", // lang.isArray, lang.mixin
 	"dojo/window", // windowUtils.getBox
 	"../place",
-	"../main"	// export to dijit namespace
+	"../_dijit"	// export to dijit namespace
 ], function(array, lang, windowUtils, place, dijit){
 
 	// module:
@@ -2458,7 +2475,7 @@ define('dijit/_base/place',[
 
 define('dijit/BackgroundIframe',[
 	"require",			// require.toUrl
-	"./main",	// to export dijit.BackgroundIframe
+	"./_dijit",	// to export dijit.BackgroundIframe
 	"dojo/_base/config",
 	"dojo/dom-construct", // domConstruct.create
 	"dojo/dom-style", // domStyle.set
@@ -2591,7 +2608,7 @@ define('dijit/popup',[
 	"./place",
 	"./BackgroundIframe",
 	"./Viewport",
-	"./main"    // dijit (defining dijit.popup to match API doc)
+	"./_dijit"    // dijit (defining dijit.popup to match API doc)
 ], function(array, aspect, declare, dom, domAttr, domConstruct, domGeometry, domStyle, has, keys, lang, on,
 			place, BackgroundIframe, Viewport, dijit){
 
@@ -3072,7 +3089,7 @@ return popup;
 
 define('dijit/_base/scroll',[
 	"dojo/window", // windowUtils.scrollIntoView
-	"../main"	// export symbol to dijit
+	"../_dijit"	// export symbol to dijit
 ], function(windowUtils, dijit){
 	// module:
 	//		dijit/_base/scroll
@@ -3112,7 +3129,7 @@ define('dijit/typematic',[
 	"dojo/_base/lang", // lang.mixin, lang.hitch
 	"dojo/on",
 	"dojo/sniff", // has("ie")
-	"./main"        // setting dijit.typematic global
+	"./_dijit"        // setting dijit.typematic global
 ], function(array, connect, lang, on, has, dijit){
 
 	// module:
@@ -3354,7 +3371,7 @@ define('dijit/hccss',["dojo/dom-class", "dojo/hccss", "dojo/domReady", "dojo/_ba
 define('dijit/_base/wai',[
 	"dojo/dom-attr", // domAttr.attr
 	"dojo/_base/lang", // lang.mixin
-	"../main",	// export symbols to dijit
+	"../_dijit",	// export symbols to dijit
 	"../hccss"			// not using this module directly, but loading it sets CSS flag on <html>
 ], function(domAttr, lang, dijit){
 
@@ -3463,7 +3480,7 @@ define('dijit/_base/wai',[
 
 define('dijit/_base/window',[
 	"dojo/window", // windowUtils.get
-	"../main"	// export symbol to dijit
+	"../_dijit"	// export symbol to dijit
 ], function(windowUtils, dijit){
 	// module:
 	//		dijit/_base/window
@@ -3481,7 +3498,7 @@ define('dijit/_base/window',[
 });
 
 define('dijit/_base',[
-	"./main",
+	"./_dijit",
 	"./a11y",	// used to be in dijit/_base/manager
 	"./WidgetSet",	// used to be in dijit/_base/manager
 	"./_base/focus",
@@ -7002,7 +7019,7 @@ define('dijit/form/_FormValueWidget',[
 });
 
 define('dijit/dijit',[
-	"./main",
+	"./_dijit",
 	"./_base",
 	"dojo/parser",
 	"./_Widget",
@@ -8534,7 +8551,7 @@ define('dijit/DialogUnderlay',[
 	"./_TemplatedMixin",
 	"./BackgroundIframe",
 	"./Viewport",
-	"./main" // for back-compat, exporting dijit._underlay (remove in 2.0)
+	"./_dijit" // for back-compat, exporting dijit._underlay (remove in 2.0)
 ], function(declare, lang, aspect, domAttr, domStyle, on,
 			winUtils, _Widget, _TemplatedMixin, BackgroundIframe, Viewport, dijit){
 
@@ -10451,7 +10468,7 @@ define('dijit/TooltipDialog',[
 	"./form/_FormMixin",
 	"./_TemplatedMixin",
 	"dojo/text!./templates/TooltipDialog.html",
-	"./main"        // exports methods to dijit global
+	"./_dijit"        // exports methods to dijit global
 ], function(declare, domClass, has, keys, lang, on, focus, ContentPane, _DialogMixin, _FormMixin, _TemplatedMixin, template, dijit){
 
 	// module:
@@ -12891,7 +12908,7 @@ define('dijit/_editor/RichText',[
 	"./range",
 	"./html",
 	"../focus",
-	"../main"    // dijit._scopeName
+	"../_dijit"    // dijit._scopeName
 ], function(array, config, declare, Deferred, dom, domAttr, domClass, domConstruct, domGeometry, domStyle,
 			kernel, keys, lang, on, query, domReady, has, topic, unload, _Url, winUtils,
 			_Widget, _CssStateMixin, selectionapi, rangeapi, htmlapi, focus, dijit){
@@ -16527,7 +16544,7 @@ define('dijit/Editor',[
 	"./_editor/html",
 	"./_editor/range",
 	"./_editor/RichText",
-	"./main", // dijit._scopeName
+	"./_dijit", // dijit._scopeName
 	"dojo/i18n!./_editor/nls/commands"
 ], function(require, array, declare, Deferred, i18n, domAttr, domClass, domGeometry, domStyle,
 			keys, lang, has, string, topic,
@@ -17389,7 +17406,7 @@ define('dijit/form/_TextBoxMixin',[
 	"dojo/keys", // keys.ALT keys.CAPS_LOCK keys.CTRL keys.META keys.SHIFT
 	"dojo/_base/lang", // lang.mixin
 	"dojo/on", // on
-	"../main"    // for exporting dijit._setSelectionRange, dijit.selectInputText
+	"../_dijit"    // for exporting dijit._setSelectionRange, dijit.selectInputText
 ], function(array, declare, dom, has, keys, lang, on, dijit){
 
 	// module:
@@ -17908,7 +17925,7 @@ define('dijit/form/TextBox',[
 	"./_FormValueWidget",
 	"./_TextBoxMixin",
 	"dojo/text!./templates/TextBox.html",
-	"../main"	// to export dijit._setSelectionRange, remove in 2.0
+	"../_dijit"	// to export dijit._setSelectionRange, remove in 2.0
 ], function(declare, domConstruct, domStyle, kernel, lang, on, has,
 			_FormValueWidget, _TextBoxMixin, template, dijit){
 
@@ -18092,7 +18109,7 @@ define('dijit/Tooltip',[
 	"./_TemplatedMixin",
 	"./BackgroundIframe",
 	"dojo/text!./templates/Tooltip.html",
-	"./main"		// sets dijit.showTooltip etc. for back-compat
+	"./_dijit"		// sets dijit.showTooltip etc. for back-compat
 ], function(array, declare, fx, dom, domClass, domGeometry, domStyle, lang, mouse, on, has,
 			manager, place, _Widget, _TemplatedMixin, BackgroundIframe, template, dijit){
 
@@ -38355,7 +38372,7 @@ define('dijit/layout/TabContainer',[
 });
 
 define('dijit/dijit-all',[
-	"./main",
+	"./_dijit",
 	"./dijit",
 	"./ColorPalette",
 	"./Declaration",
@@ -40053,7 +40070,7 @@ define('dijit/tree/ObjectStoreModel',[
 });
 
 define('dijit/main',[
-	"dojo/_base/kernel",
+	"./_dijit",
 	"dijit/dijit-all",
 	"dijit/RadioMenuItem",
 	"dijit/_editor/plugins/FullScreen",
@@ -40062,7 +40079,7 @@ define('dijit/main',[
 	"dijit/_editor/plugins/ViewSource",
 	"dijit/layout/AccordionPane",
 	"dijit/tree/ObjectStoreModel"	
-], function(dojo){
+], function(_dijit){
 	// module:
 	//		dijit/main
 
@@ -40074,7 +40091,7 @@ return {
 };
 =====*/
 
-	return dojo.dijit;
+	return _dijit;
 });
 
 define('dijit', ['dijit/main'], function (main) { return main; });

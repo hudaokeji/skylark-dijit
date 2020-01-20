@@ -6,7 +6,7 @@ define([
 	"dojo/_base/window", // win.doc win.doc.selection win.global win.global.getSelection win.withGlobal
 	"../focus",
 	"../selection",
-	"../main"	// for exporting symbols to dijit
+	"../_dijit"	// for exporting symbols to dijit
 ], function(array, dom, lang, topic, win, focus, selection, dijit){
 
 	// module:

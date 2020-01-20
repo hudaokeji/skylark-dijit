@@ -3,7 +3,7 @@ define([
 	"dojo/_base/config", // defaultDuration
 	"dojo/_base/lang",
 	"../registry",
-	"../main"	// for setting exports to dijit namespace
+	"../_dijit"	// for setting exports to dijit namespace
 ], function(array, config, lang, registry, dijit){
 
 	// module:

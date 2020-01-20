@@ -1,7 +1,7 @@
 define([
 	"dojo/dom-attr", // domAttr.attr
 	"dojo/_base/lang", // lang.mixin
-	"../main",	// export symbols to dijit
+	"../_dijit",	// export symbols to dijit
 	"../hccss"			// not using this module directly, but loading it sets CSS flag on <html>
 ], function(domAttr, lang, dijit){
 

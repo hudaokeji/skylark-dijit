@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dijit/
  * @license MIT
  */
-define(["./main","./a11y","./WidgetSet","./_base/focus","./_base/manager","./_base/place","./_base/popup","./_base/scroll","./_base/sniff","./_base/typematic","./_base/wai","./_base/window"],function(e){return e._base});
+define(["./_dijit","./a11y","./WidgetSet","./_base/focus","./_base/manager","./_base/place","./_base/popup","./_base/scroll","./_base/sniff","./_base/typematic","./_base/wai","./_base/window"],function(e){return e._base});
 //# sourceMappingURL=sourcemaps/_base.js.map

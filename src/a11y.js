@@ -5,7 +5,7 @@ define([
 	"dojo/dom-style", // domStyle.style
 	"dojo/_base/lang", // lang.mixin()
 	"dojo/sniff", // has("ie") has("extend-dojo")
-	"./main"	// for exporting methods to dijit namespace
+	"./_dijit"	// for exporting methods to dijit namespace
 ], function(array, dom, domAttr, domStyle, lang, has, dijit){
 
 	// module:

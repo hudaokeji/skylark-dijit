@@ -5,7 +5,7 @@ define([
 	"dojo/_base/kernel", // kernel.deprecated
 	"dojo/_base/window", // win.body
 	"./Viewport", // getEffectiveBox
-	"./main"	// dijit (defining dijit.place to match API doc)
+	"./_dijit"	// dijit (defining dijit.place to match API doc)
 ], function(array, domGeometry, domStyle, kernel, win, Viewport, dijit){
 
 	// module:

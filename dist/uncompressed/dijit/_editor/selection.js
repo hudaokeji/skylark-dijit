@@ -3,7 +3,7 @@ define([
 	"dojo/_base/lang",
 	"dojo/sniff", // has("ie") has("opera")
 	"dojo/_base/window", // win.body win.doc win.doc.createElement win.doc.selection win.doc.selection.createRange win.doc.selection.type.toLowerCase win.global win.global.getSelection
-	"../main"		// for exporting symbols to dijit._editor.selection
+	"../_dijit"		// for exporting symbols to dijit._editor.selection
 ], function(dom, lang, has, win, dijit){
 
 // module:

@@ -11,7 +11,7 @@ define([
 	"./form/_FormMixin",
 	"./_TemplatedMixin",
 	"dojo/text!./templates/TooltipDialog.html",
-	"./main"        // exports methods to dijit global
+	"./_dijit"        // exports methods to dijit global
 ], function(declare, domClass, has, keys, lang, on, focus, ContentPane, _DialogMixin, _FormMixin, _TemplatedMixin, template, dijit){
 
 	// module:

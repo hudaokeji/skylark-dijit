@@ -4,7 +4,7 @@ define([
 	"dojo/_base/lang", // lang.mixin, lang.hitch
 	"dojo/on",
 	"dojo/sniff", // has("ie")
-	"./main"        // setting dijit.typematic global
+	"./_dijit"        // setting dijit.typematic global
 ], function(array, connect, lang, on, has, dijit){
 
 	// module:

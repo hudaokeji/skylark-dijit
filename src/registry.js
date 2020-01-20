@@ -1,7 +1,7 @@
 define([
 	"dojo/_base/array", // array.forEach array.map
 	"dojo/_base/window", // win.body
-	"./main"	// dijit._scopeName
+	"./_dijit"	// dijit._scopeName
 ], function(array, win, dijit){
 
 	// module:

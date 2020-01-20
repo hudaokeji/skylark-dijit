@@ -26,7 +26,7 @@ define([
 	"./range",
 	"./html",
 	"../focus",
-	"../main"    // dijit._scopeName
+	"../_dijit"    // dijit._scopeName
 ], function(array, config, declare, Deferred, dom, domAttr, domClass, domConstruct, domGeometry, domStyle,
 			kernel, keys, lang, on, query, domReady, has, topic, unload, _Url, winUtils,
 			_Widget, _CssStateMixin, selectionapi, rangeapi, htmlapi, focus, dijit){

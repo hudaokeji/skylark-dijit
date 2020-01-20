@@ -14,7 +14,7 @@ define([
 	"./place",
 	"./BackgroundIframe",
 	"./Viewport",
-	"./main"    // dijit (defining dijit.popup to match API doc)
+	"./_dijit"    // dijit (defining dijit.popup to match API doc)
 ], function(array, aspect, declare, dom, domAttr, domConstruct, domGeometry, domStyle, has, keys, lang, on,
 			place, BackgroundIframe, Viewport, dijit){
 

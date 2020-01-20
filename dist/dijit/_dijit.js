@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dijit/
  * @license MIT
  */
-define(["dojo/window","../_dijit"],function(n,i){i.getDocumentWindow=function(i){return n.get(i)}});
-//# sourceMappingURL=../sourcemaps/_base/window.js.map
+define(["dojo/_base/kernel"],function(e){return e.dijit});
+//# sourceMappingURL=sourcemaps/_dijit.js.map

@@ -23,7 +23,7 @@ define([
 	"./_editor/html",
 	"./_editor/range",
 	"./_editor/RichText",
-	"./main", // dijit._scopeName
+	"./_dijit", // dijit._scopeName
 	"dojo/i18n!./_editor/nls/commands"
 ], function(require, array, declare, Deferred, i18n, domAttr, domClass, domGeometry, domStyle,
 			keys, lang, has, string, topic,

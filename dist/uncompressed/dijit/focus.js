@@ -15,7 +15,7 @@ define([
 	"dojo/window", // winUtils.get
 	"./a11y",	// a11y.isTabNavigable
 	"./registry",	// registry.byId
-	"./main"		// to set dijit.focus
+	"./_dijit"		// to set dijit.focus
 ], function(aspect, declare, dom, domAttr, domClass, domConstruct, Evented, lang, on, domReady, has, Stateful, win, winUtils,
 			a11y, registry, dijit){
 

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dijit/
  * @license MIT
  */
-define(["dojo/_base/array","dojo/_base/config","dojo/_base/lang","../registry","../main"],function(i,n,e,o,a){var d={};return i.forEach(["byId","getUniqueId","findWidgets","_destroyAll","byNode","getEnclosingWidget"],function(i){d[i]=o[i]}),e.mixin(d,{defaultDuration:n.defaultDuration||200}),e.mixin(a,d),a});
+define(["dojo/_base/array","dojo/_base/config","dojo/_base/lang","../registry","../_dijit"],function(i,e,n,o,d){var exports={};return i.forEach(["byId","getUniqueId","findWidgets","_destroyAll","byNode","getEnclosingWidget"],function(i){exports[i]=o[i]}),n.mixin(exports,{defaultDuration:e.defaultDuration||200}),n.mixin(d,exports),d});
 //# sourceMappingURL=../sourcemaps/_base/manager.js.map

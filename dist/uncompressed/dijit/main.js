@@ -1,5 +1,5 @@
 define([
-	"dojo/_base/kernel",
+	"./_dijit",
 	"dijit/dijit-all",
 	"dijit/RadioMenuItem",
 	"dijit/_editor/plugins/FullScreen",
@@ -8,7 +8,7 @@ define([
 	"dijit/_editor/plugins/ViewSource",
 	"dijit/layout/AccordionPane",
 	"dijit/tree/ObjectStoreModel"	
-], function(dojo){
+], function(_dijit){
 	// module:
 	//		dijit/main
 
@@ -20,5 +20,5 @@ return {
 };
 =====*/
 
-	return dojo.dijit;
+	return _dijit;
 });

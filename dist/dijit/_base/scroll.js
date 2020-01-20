@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dijit/
  * @license MIT
  */
-define(["dojo/window","../main"],function(n,o){o.scrollIntoView=function(o,i){n.scrollIntoView(o,i)}});
+define(["dojo/window","../_dijit"],function(o,i){i.scrollIntoView=function(i,n){o.scrollIntoView(i,n)}});
 //# sourceMappingURL=../sourcemaps/_base/scroll.js.map

@@ -10,7 +10,7 @@ define([
 	"./_TemplatedMixin",
 	"./BackgroundIframe",
 	"./Viewport",
-	"./main" // for back-compat, exporting dijit._underlay (remove in 2.0)
+	"./_dijit" // for back-compat, exporting dijit._underlay (remove in 2.0)
 ], function(declare, lang, aspect, domAttr, domStyle, on,
 			winUtils, _Widget, _TemplatedMixin, BackgroundIframe, Viewport, dijit){
 
