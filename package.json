@@ -19,6 +19,13 @@
   "bugs": {
     "url": "https://github.com/skylark-integration/dijit/issues"
   },
+  "files": [
+    "demos/",
+    "dist/",
+    "src/",
+    "skins/",
+    "thems/",
+  ],  
   "license": "MIT",
   "dependencies": {
     "dojo": "git+https://github.com/skylark-integration/dojo.git#master",
