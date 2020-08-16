@@ -10,7 +10,7 @@
   "homepage": "https://github.com/skylark-integration/dijit/",
   "author": "Hudaokeji, Inc.",
   "scripts": {
-    "build": "sbundle build ."
+    "build": "slib build ."
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "dist/",
     "src/",
     "skins/",
-    "thems/",
+    "themes/"
   ],  
   "license": "MIT",
   "dependencies": {
